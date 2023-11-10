@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pricing-plan {
+    background-color: #7692df;
+    border: 2px solid #0e0808;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 29%;
+    
+    transition: transform 0.2s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.1);
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    background: linear-gradient(to right,black ,white,pink);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.btn-select {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-select:hover {
+    background-color: #0056b3;
+}
+
